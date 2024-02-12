@@ -1,0 +1,339 @@
+/* Global CSS start */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+  
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Global CSS end */
+
+
+/* Header Section */
+
+header {
+    background-color: #F0FFF0;
+    padding: 20px 0;
+}
+
+header .container .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .container .navbar .logo img {
+    width: 198.07px;
+
+}
+
+header .container .navbar .menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+header .container .navbar .menu ul li .signinBT {
+    background-color: #21B573;
+    text-decoration: none;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 20px;
+    transition: 0.5ms;
+    font-weight: 400;
+    transition: 0.8s;
+}
+header .container .navbar .menu ul li .signinBT:hover {
+    transition: 0.8s;
+
+    border: 1px solid #000;
+}
+header .first-banner {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 70px 0;
+}
+
+
+
+header .first-banner .content h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    line-height: 70px;
+    width: 76%;
+
+}
+header .first-banner .content h1  span{
+
+    color: #21B573;
+
+}
+header .first-banner .content  .orangetext{
+
+    color: #FD511A;
+    font-size: 16px;
+
+}
+
+header .first-banner .content a{
+
+    background-color: #21B573;
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 20px;     
+     margin-top: 30px;
+     transition: 0.8s;
+
+}
+header .first-banner .content a:hover{
+
+    transition: 0.8s;
+
+    border: 1px solid #000;
+
+}
+header .first-banner .content p{
+
+    width: 73%;
+   margin: 30px 0px;
+   line-height: 36px;
+   font-size: 16px;
+}
+
+header .first-banner .Banner-image img {
+    width: 100%;
+
+}
+
+.featured-tiles .container .flexbox{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+
+}
+.featured-tiles .container .flexbox .box {
+   text-align: center;
+   padding: 40px 40px;
+   transition: 0.8s;
+
+}
+.featured-tiles .container .flexbox .box:hover {
+    transition: 0.8s;
+
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 10%);
+    
+ }
+
+.featured-tiles .container .flexbox .tile-image img{
+   width: 66px;
+   height: 85px; 
+   padding: 15px 0;
+
+}
+.featured-tiles .container .flexbox .tile-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #413960;
+
+ }
+ .featured-tiles .container .flexbox .tile-text{
+    font-size: 16px;
+    color: #413960;
+
+ }
+
+ .onlineCourses-Section {
+    margin: 50px 0px;
+ }
+ .onlineCourses-Section .title h2{
+        font-size: 36px;
+        font-weight: 700;
+        color: #413960;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+ 
+
+ .onlineCourses-Section .cards {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+.onlineCourses-Section .cards .card {
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 10%);
+    padding: 10px 20px;
+
+}
+
+.onlineCourses-Section .cards .card-img img{
+    
+width: 331px;
+text-align: center;
+padding-bottom: 20px;
+
+}
+.onlineCourses-Section .cards h6{
+   
+  
+        font-size: 24px;
+        font-weight: 500;
+        color: #413960;
+        padding-top: 10px;
+    
+
+
+}
+.onlineCourses-Section .cards  p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #585859;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+
+.onlineCourses-Section .cards a{
+
+    background-color: #21B573;
+    text-decoration: none;
+    color: white;
+    padding: 8px 28px;
+    border-radius: 20px;     
+     margin-top: 30px;
+     transition: 0.8s;
+
+}
+.onlineCourses-Section .cards  a:hover{
+
+    transition: 0.8s;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 10%);
+
+    border: 1px solid #000;
+
+}
+
+.onlineCourses-Section .cards .card-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+
+}
+.onlineCourses-Section .cards .card-footer .date,.onlineCourses-Section .cards .card-footer .seats{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+.onlineCourses-Section .cards .card-footer img{
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+}
+
+.testimonial-section {
+    margin:96px 0;
+
+}
+.testimonial-section .title h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #413960;
+    text-align: center;
+    padding-bottom: 56px;
+    
+}
+
+.testimonial-section .content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.testimonial-section .content img{
+
+  width: 120px;
+  height: 120px;
+  margin-right: 50px;
+
+}
+.testimonial-section .content p{
+
+    font-size: 16px;
+    font-weight: 400;
+    width: 50%;
+  
+
+    
+  }
+
+
+
+
+  footer{
+    background-color: #282531;
+    color: #F0FFF0;
+  }
+
+
+footer .container .flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+footer .container .flexbox p{
+    width:33%;
+   
+}
+footer .container .flexbox li{
+    list-style-type: none;
+    padding-bottom: 5px;
+    font-size: 16px;
+    
+}
+
+footer .container .flexbox h5{
+   
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+}
+footer .container  .copyright{
+   
+   text-align: center;
+   padding: 30px;
+
+}
